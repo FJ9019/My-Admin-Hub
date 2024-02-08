@@ -184,3 +184,19 @@ body {
     width: calc(100% - 60px);
     left: 60px;
 }
+
+
+/* Navbar */
+#content nav {
+    height: 56px;
+    background: var(--light);
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    grid-gap: 24px;
+    font-family: var(--lato);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
