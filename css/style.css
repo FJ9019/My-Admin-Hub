@@ -772,7 +772,44 @@ body {
 /* End */
 
 /* Store */
+#card-view {
+    padding: 20px;
+}
 
+#card-view article {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background: white;
+    border: 1px solid silver;
+    margin: 15px;
+    border-radius: 2px;
+}
+
+#card-view article .card-image {
+    width: 100%;
+    height: 150px;
+    background-color: #858e99;
+    background-image: url("https://static.pexels.com/photos/134392/pexels-photo-134392-large.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#card-view article .card-text {
+    padding: 0px 10px;
+}
+
+#card-view article button {
+    background: #0fa0eb;
+    border: 0;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+/* End Store */
 
 
 
