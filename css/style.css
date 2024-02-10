@@ -785,6 +785,14 @@ body {
     border: 1px solid silver;
     margin: 15px;
     border-radius: 2px;
+    overflow: hidden;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+}
+
+#card-view article:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 #card-view article .card-image {
