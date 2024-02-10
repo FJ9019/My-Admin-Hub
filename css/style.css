@@ -808,7 +808,14 @@ body {
     position: absolute;
     bottom: 0;
     padding: 10px 0;
+    cursor: pointer;
 }
+
+#card-view article button:hover {
+    background: #858e99;
+}
+
+
 /* End Store */
 
 
@@ -834,6 +841,18 @@ body {
 	}
 
 
+    /* Store */
+    #card-view {
+        padding: 18px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #card-view {
+    }
+}
+
     /* Potfolio */
     @media screen and (max-width: 1024px) {
         .container-1 {
@@ -844,6 +863,7 @@ body {
             margin-top: 1rem;
         }
     }
+    
     @media screen and (max-width: 990px) {
         .main-1 {
             grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
@@ -878,7 +898,7 @@ body {
             width: 150px;
         }
     }
-}
+
 
 
 @media screen and (max-width: 576px) {
