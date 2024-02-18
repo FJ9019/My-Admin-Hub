@@ -267,28 +267,6 @@ body {
     cursor: pointer;
 }
 
-#content nav .notification {
-    font-size: 20px;
-    position: relative;
-}
-
-#content nav .notification .num {
-    position: absolute;
-    top: -6px;
-    right: -6px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid var(--light);
-    background: var(--red);
-    color: var(--light);
-    font-weight: 700;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #content nav .profile img {
     width: 36px;
     height: 36px;
@@ -365,19 +343,6 @@ body {
 #content main .head-title .left .breadcrumb li a.active {
 	color: var(--blue);
 	pointer-events: unset;
-}
-
-#content main .head-title .btn-download {
-	height: 36px;
-	padding: 0 16px;
-	border-radius: 36px;
-	background: var(--blue);
-	color: var(--light);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	grid-gap: 10px;
-	font-weight: 500;
 }
 
 #content main .box-info {
@@ -794,7 +759,7 @@ body {
     background: white;
     border: 1px solid silver;
     margin: 15px;
-    border-radius: 2px;
+    border-radius: 10px 10px 0 0;
     overflow: hidden;
     transition: transform 0.5s;
     -webkit-transition: transform 0.5s;
@@ -943,11 +908,6 @@ body {
 		border-radius: 0 36px 36px 0;
 		color: var(--light);
 		background: var(--red);
-	}
-
-	#content nav form.show ~ .notification,
-	#content nav form.show ~ .profile {
-		display: none;
 	}
 
 	#content main .box-info {
